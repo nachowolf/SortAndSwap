@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7a0d84-77bb-4aa3-aae3-fa9da6d587fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortAndSwap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/projectcodex/sortandswap/SwapMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/projectcodex/sortandswap/SwapMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/projectcodex/sortandswap/SwapMeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/projectcodex/sortandswap/SwapMeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a7a0d84-77bb-4aa3-aae3-fa9da6d587fb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +21,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/co/projectcodex/sortandswap/SwapMe.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
+                <state relative-caret-position="217">
                   <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
                   <folding>
                     <element signature="method#swapNeighbours#0;class#SwapMe#0" />
@@ -342,7 +333,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="169" y="793" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project Explorer" order="0" />
       <window_info id="Job Explorer" order="1" />
@@ -358,12 +348,12 @@
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.3355049" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3355049" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2199688" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2198697" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
@@ -434,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/projectcodex/sortandswap/SwapMe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="217">
           <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
           <folding>
             <element signature="method#swapNeighbours#0;class#SwapMe#0" />
