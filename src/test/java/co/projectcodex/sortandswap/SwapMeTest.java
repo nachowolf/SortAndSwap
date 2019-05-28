@@ -1,12 +1,15 @@
 package co.projectcodex.sortandswap;
 
+import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import static co.projectcodex.sortandswap.SwapMe.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class SwapMeTest {
 
 
@@ -60,6 +63,36 @@ public class SwapMeTest {
         int[] testSetTwo = {89, 3, 21, 7, 12, 8 };
         int [] testResultsTwo = swapNeighbours(testSetTwo);
         assertArrayEquals(new int[] {3, 21, 7, 12, 8, 89}, testResultsTwo);
+
+
+    }
+
+    @Test
+    @Order(4)
+    public void sortListShouldWork() {
+
+        int[] testSetOne = {5, 19, 7, 17, 6, 1, 3};
+        int[] testResultsOne = sortList(testSetOne);
+        assertArrayEquals(new int[]{1, 3, 5, 6, 7, 17, 19}, testResultsOne);
+
+        int[] testSetTwo = {89, 3, 21, 7, 12, 8};
+        int[] testResultsTwo = sortList(testSetTwo);
+        assertArrayEquals(new int[]{3, 7, 8, 12, 21, 89}, testResultsTwo);
+
+
+    }
+
+    @Test
+    @Order(5)
+    public void selectionSortTestShouldWork() {
+
+        int[] testSetOne = {5, 19, 7, 17, 6, 1, 3};
+        int[] testResultsOne = selectionSort(testSetOne);
+        assertArrayEquals(new int[]{1, 3, 5, 6, 7, 17, 19}, testResultsOne);
+
+        int[] testSetTwo = {89, 3, 21, 7, 12, 8};
+        int[] testResultsTwo = selectionSort(testSetTwo);
+        assertArrayEquals(new int[]{3, 7, 8, 12, 21, 89}, testResultsTwo);
 
 
     }
